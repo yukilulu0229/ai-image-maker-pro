@@ -5,7 +5,8 @@ import Link from "next/link";
 import React, { useState } from "react";
 
 const Header = () => {
-  const [loggedIn, setLoggedIn] = useState(true);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const [loggedIn, setLoggedIn] = useState(false);
 
   return (
     <header className="w-full bg-slate-600">
