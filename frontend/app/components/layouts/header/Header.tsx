@@ -11,7 +11,9 @@ const Header = () => {
   return (
     <header className="w-full bg-slate-600">
       <div className="py-3 ms:px-6 px-3 flex justify-between bg-slate-600 items-center">
-        <h2 className="font-bold text-white sm:text-xl">AI画像生成ツールPro</h2>
+        <Link href={"/"} className="font-bold text-white sm:text-xl">
+          AI画像生成ツールPro
+        </Link>
 
         <nav>
           <ul>
