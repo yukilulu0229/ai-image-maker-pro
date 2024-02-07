@@ -20,7 +20,7 @@ const Signup = () => {
     formState: { errors },
   } = useForm<Inputs>()
 
-  const onSubmit: SubmitHandler<Inputs> = async (data) => {
+  const onSubmit: SubmitHandler<Inputs> = async () => {
     // todo dataの処理
     // router.push("/auth/login");
   };
