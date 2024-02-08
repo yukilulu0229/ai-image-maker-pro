@@ -56,7 +56,6 @@ const Signup = () => {
             </span>
               )}
             </div>
-
             <div className="w-5/12" >
               <input className="border w-full h-10 placeholder:text-sm p-2"
                      type="text" placeholder="Last name"
